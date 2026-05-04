@@ -1,0 +1,3914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>SKY130 DRC runset</description>
+ <original-file>/home/ttuser/ECG_FrontEnd/gds/tt_um_NE567Mixer28.gds</original-file>
+ <generator>drc: script='/home/ttuser/pdk/sky130A/libs.tech/klayout/drc/sky130A.lydrc'</generator>
+ <top-cell>tt_um_NE567Mixer28</top-cell>
+ <tags>
+  <tag>
+   <name>waived</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>red</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>green</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>blue</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>yellow</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>important</name>
+   <description/>
+  </tag>
+ </tags>
+ <categories>
+  <category>
+   <name>li.1</name>
+   <description>li.1 : min. li width : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.1a</name>
+   <description>li.1a : min. li width for the cells s8rf2_xcmvpp_hd5_* : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.3</name>
+   <description>li.3 : min. li spacing : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.3a</name>
+   <description>li.3a : min. li spacing for the cells s8rf2_xcmvpp_hd5_* : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.5</name>
+   <description>li.5 : min. li enclosure of licon of 2 opposite edges : 0.08um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li.6</name>
+   <description>li.6 : min. li area : 0.0561um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct.1</name>
+   <description>ct.1 : minimum/maximum width of mcon : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct.2</name>
+   <description>ct.2 : min. mcon spacing : 0.19um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct.4</name>
+   <description>ct.4 : mcon should covered by li</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.1</name>
+   <description>m1.1 : min. m1 width : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.2</name>
+   <description>m1.2 : min. m1 spacing : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.3ab</name>
+   <description>m1.3ab : min. 3um.m1 spacing m1 : 0.28um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.4</name>
+   <description>m1.4 : min. m1 enclosure of mcon : 0.03um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.4a</name>
+   <description>m1.4a : min. m1 enclosure of mcon for specific cells : 0.005um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.6</name>
+   <description>m1.6 : min. m1 area : 0.083um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.7</name>
+   <description>m1.7 : min. m1 holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1.5</name>
+   <description>m1.5 : min. m1 enclosure of mcon of 2 opposite edges : 0.06um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.4c.5c</name>
+   <description>via.4c.5c : m1 must enclose all via</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.1a</name>
+   <description>via.1a : minimum/maximum width of via : 0.15um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.1b</name>
+   <description>via.1b : minimum/maximum width of via in areaid.mt: 0.15um or 0.23um or 0.28um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.2</name>
+   <description>via.2 : min. via spacing : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.4a</name>
+   <description>via.4a : min. m1 enclosure of 0.15um via : 0.055um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.4b</name>
+   <description>via.4b : min. m1 enclosure of 0.23um via : 0.03um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1.5a</name>
+   <description>via1.5a : min. m1 enclosure of 0.15um via of 2 opposite edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via1.5b</name>
+   <description>via1.5b : min. m1 enclosure of 0.23um via of 2 opposite edges : 0.06um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.1</name>
+   <description>m2.1 : min. m2 width : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.2</name>
+   <description>m2.2 : min. m2 spacing : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.3ab</name>
+   <description>m2.3ab : min. 3um.m2 spacing m2 : 0.28um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.6</name>
+   <description>m2.6 : min. m2 area : 0.0676um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.7</name>
+   <description>m2.7 : min. m2 holes area : 0.14um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.via</name>
+   <description>m2.via : m2 must enclose via</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.4</name>
+   <description>m2.4 : min. m2 enclosure of via : 0.055um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2.5</name>
+   <description>m2.5 : min. m2 enclosure of via of 2 opposite edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2</name>
+   <description>via2 : m2 must enclose all via2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.1a</name>
+   <description>via2.1a : minimum/maximum width of via2 : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.1b</name>
+   <description>via2.1b : minimum/maximum width of via2 in areaid.mt: 0.2um or 1.2um or 1.5um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.2</name>
+   <description>via2.2 : min. via2 spacing : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.4</name>
+   <description>via2.4 : min. m2 enclosure of via2 : 0.04um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.4a</name>
+   <description>via2.4a : min. m2 enclosure of 1.5um via2 : 0.14um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.5</name>
+   <description>via2.5 : min. m2 enclosure of via2 of 2 opposite edges : 0.085um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.1</name>
+   <description>m3.1 : min. m3 width : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.2</name>
+   <description>m3.2 : min. m3 spacing : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.3ab</name>
+   <description>m3.3ab : min. 3um.m3 spacing m3 : 0.4um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.6</name>
+   <description>m3.6 : min. m3 area : 0.24um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.via2</name>
+   <description>m3.via2 : m3 must enclose via2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3.4</name>
+   <description>m3.4 : min. m3 enclosure of via2 : 0.065um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3</name>
+   <description>via3 : m3 must enclose all via3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.1a</name>
+   <description>via3.1a : minimum/maximum width of via3 in areaid.mt: 0.2um or 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.2</name>
+   <description>via3.2 : min. via3 spacing : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.4</name>
+   <description>via3.4 : min. m3 enclosure of via3 : 0.06um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3.5</name>
+   <description>via3.5 : min. m2 enclosure of via3 of 2 opposite edges : 0.09um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.1</name>
+   <description>m4.1 : min. m4 width : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.2</name>
+   <description>m4.2 : min. m4 spacing : 0.3um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.5ab</name>
+   <description>m4.5ab : min. 3um.m4 spacing m4 : 0.4um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.4</name>
+   <description>m4.4 : min. m4 area : 0.24um²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.via3</name>
+   <description>m4.via3 : m4 must enclose via3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.3</name>
+   <description>m4.3 : min. m4 enclosure of via3 : 0.065um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.1a</name>
+   <description>via4.1a : minimum/maximum width of via4 : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.2</name>
+   <description>via4.2 : min. via4 spacing : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.4</name>
+   <description>via4.4 : min. m4 enclosure of via4 : 0.19um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4</name>
+   <description>via4 : m4 must enclose all via4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.1</name>
+   <description>m5.1 : min. m5 width : 1.6um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.2</name>
+   <description>m5.2 : min. m5 spacing : 1.6um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.via4</name>
+   <description>m5.via4 : m5 must enclose via4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5.3</name>
+   <description>m4.3 : min. m5 enclosure of via4 : 0.31um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm.1</name>
+   <description>nsm.1 : min. nsm width : 3.0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm.2</name>
+   <description>nsm.2 : min. nsm spacing : 4.0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm.4</name>
+   <description>nsm.4 : min. nsm enclosure of cfom : 3.0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm.3</name>
+   <description>nsm.3 : min. nsm spacing to cfom : 1.0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pad.2</name>
+   <description>pad.2 : min. pad spacing : 1.27um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>dnwell_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on dnwell</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>dnwell_angle</name>
+   <description>x.3a : non 45 degree angle dnwell</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nwell_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on nwell</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nwell_angle</name>
+   <description>x.3a : non 45 degree angle nwell</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwbm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on pwbm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwbm_angle</name>
+   <description>x.3a : non 45 degree angle pwbm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwde_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on pwde</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwde_angle</name>
+   <description>x.3a : non 45 degree angle pwde</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvtp_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on hvtp</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvtp_angle</name>
+   <description>x.3a : non 45 degree angle hvtp</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvtr_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on hvtr</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvtr_angle</name>
+   <description>x.3a : non 45 degree angle hvtr</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>lvtn_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on lvtn</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>lvtn_angle</name>
+   <description>x.3a : non 45 degree angle lvtn</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ncm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on ncm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ncm_angle</name>
+   <description>x.3a : non 45 degree angle ncm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>diff_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on diff</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>tap_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on tap</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>diff_angle</name>
+   <description>x.2c : non 45 degree angle diff</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>tap_angle</name>
+   <description>x.2c : non 45 degree angle tap</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>tunm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on tunm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>tunm_angle</name>
+   <description>x.3a : non 45 degree angle tunm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>poly_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on poly</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>poly_angle</name>
+   <description>x.2 : non 90 degree angle poly</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rpm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on rpm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rpm_angle</name>
+   <description>x.3a : non 45 degree angle rpm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>npc_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on npc</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>npc_angle</name>
+   <description>x.3a : non 45 degree angle npc</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsdm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on nsdm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsdm_angle</name>
+   <description>x.3a : non 45 degree angle nsdm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>psdm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on psdm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>psdm_angle</name>
+   <description>x.3a : non 45 degree angle psdm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>licon_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on licon</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>licon_angle</name>
+   <description>x.2 : non 90 degree angle licon</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on li</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>li_angle</name>
+   <description>x.3a : non 45 degree angle li</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on mcon</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct_angle</name>
+   <description>x.2 : non 90 degree angle mcon</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>vpp_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on vpp</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>vpp_angle</name>
+   <description>x.3a : non 45 degree angle vpp</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on m1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m1_angle</name>
+   <description>x.3a : non 45 degree angle m1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on via</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via_angle</name>
+   <description>x.2 : non 90 degree angle via</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on m2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m2_angle</name>
+   <description>x.3a : non 45 degree angle m2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on via2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2_angle</name>
+   <description>x.2 : non 90 degree angle via2</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on m3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m3_angle</name>
+   <description>x.3a : non 45 degree angle m3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on via3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via3_angle</name>
+   <description>x.2 : non 90 degree angle via3</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on nsm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>nsm_angle</name>
+   <description>x.3a : non 45 degree angle nsm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on m4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4_angle</name>
+   <description>x.3a : non 45 degree angle m4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on via4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4_angle</name>
+   <description>x.2 : non 90 degree angle via4</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on m5</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m5_angle</name>
+   <description>x.3a : non 45 degree angle m5</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pad_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on pad</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pad_angle</name>
+   <description>x.3a : non 45 degree angle pad</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>mf_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on mf</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>mf_angle</name>
+   <description>x.2 : non 90 degree angle mf</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvi_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on hvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvi_angle</name>
+   <description>x.3a : non 45 degree angle hvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvntm_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on hvntm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>hvntm_angle</name>
+   <description>x.3a : non 45 degree angle hvntm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>vhvi_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on vhvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>vhvi_angle</name>
+   <description>x.3a : non 45 degree angle vhvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>uhvi_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on uhvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>uhvi_angle</name>
+   <description>x.3a : non 45 degree angle uhvi</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwell_rs_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on pwell_rs</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pwell_rs_angle</name>
+   <description>x.3a : non 45 degree angle pwell_rs</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>areaid_re_OFFGRID</name>
+   <description>x.1b : OFFGRID vertex on areaid.re</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>tt_um_NE567Mixer28</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>ecgF</name>
+   <variant/>
+   <layout-name>ecgF</layout-name>
+   <references>
+    <ref>
+     <parent>tt_um_NE567Mixer28</parent>
+     <trans>r0 *1 62.05,144.44</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>OFCB</name>
+   <variant/>
+   <layout-name>OFCB</layout-name>
+   <references>
+    <ref>
+     <parent>tt_um_NE567Mixer28</parent>
+     <trans>r0 *1 66.54,161.62</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.1,219.27;12.1,219.27)/(12.38,219.27;14.82,219.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (88.32,219.81;85.68,219.81)/(85.96,219.81;88.04,219.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (537.04,219.77;534.29,219.77)/(534.57,219.77;536.76,219.77)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (307.43,219.56;304.68,219.56)/(304.96,219.56;307.15,219.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (771.59,13.26;774.19,13.26)/(773.91,13.26;771.87,13.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (272.92,219.56;270.28,219.56)/(270.56,219.56;272.64,219.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (422.92,13.23;424.175,13.23)/(423.895,13.23;423.2,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (484.75,13.23;486.07,13.23)/(485.79,13.23;485.03,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.83,190.19;68.34,190.19)/(68.34,190.19;68.11,190.19)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (64.26,200.27;66.58,200.27)/(66.3,200.27;64.26,200.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.98,34.78;40.98,37.61)/(40.98,37.33;40.98,35.06)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (68.34,193.81;67.83,193.81)/(68.11,193.81;68.34,193.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.88,65.48;68.39,65.48)/(68.39,65.48;68.16,65.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (64.26,55.4;66.63,55.4)/(66.35,55.4;64.26,55.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (515.78,219.77;512.77,219.77)/(513.05,219.77;515.5,219.77)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (640.94,13.26;643.11,13.26)/(642.83,13.26;641.22,13.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (463.48,13.23;465.84,13.23)/(465.56,13.23;463.76,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (580.13,13.26;582.73,13.26)/(582.45,13.26;580.41,13.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (286.17,219.56;283.16,219.56)/(283.44,219.56;285.89,219.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (66.58,193.81;64.26,193.81)/(64.26,193.81;66.3,193.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (440.15,13.23;442.51,13.23)/(442.23,13.23;440.43,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (68.34,182.95;67.83,182.95)/(68.11,182.95;68.34,182.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (571.64,9.4;569.22,9.4)/(569.5,9.4;571.36,9.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (502.53,219.77;499.89,219.77)/(500.17,219.77;502.25,219.77)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.35,10.03;11.35,12.92)/(11.35,12.64;11.35,10.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.83,200.27;68.34,200.27)/(68.34,200.27;68.11,200.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (64.31,65.48;66.63,65.48)/(66.35,65.48;64.31,65.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.88,55.4;68.39,55.4)/(68.39,55.4;68.16,55.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (68.39,59.02;67.88,59.02)/(68.16,59.02;68.39,59.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (66.63,59.02;64.31,59.02)/(64.31,59.02;66.35,59.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (525.68,13.23;526.86,13.23)/(526.58,13.23;525.96,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (64.21,190.19;66.58,190.19)/(66.3,190.19;64.21,190.19)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (122.83,219.81;120.08,219.81)/(120.36,219.81;122.55,219.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (456.15,13.23;457.26,13.23)/(456.98,13.23;456.43,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (821.57,124.38;821.57,125.19)/(821.57,124.91;821.57,124.66)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (68.39,48.16;67.88,48.16)/(68.16,48.16;68.39,48.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (64.19,9.35;61.77,9.35)/(62.05,9.35;63.91,9.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (763.1,9.4;760.68,9.4)/(760.96,9.4;762.82,9.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (72.68,13.23;75.28,13.23)/(75,13.23;72.96,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (832.4,13.26;834.57,13.26)/(834.29,13.26;832.68,13.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (531.69,13.23;534.05,13.23)/(533.77,13.23;531.97,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (101.57,219.81;98.56,219.81)/(98.84,219.81;101.29,219.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (366.55,13.41;368.72,13.41)/(368.44,13.41;366.83,13.41)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (133.49,13.23;135.66,13.23)/(135.38,13.23;133.77,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (502.05,13.23;504.41,13.23)/(504.13,13.23;502.33,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (397.84,13.23;399.35,13.23)/(399.07,13.23;398.12,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (177.885,13.23;179.295,13.23)/(179.015,13.23;178.165,13.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (305.74,13.41;308.34,13.41)/(308.06,13.41;306.02,13.41)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (419.99,55.93;420.5,55.93)/(420.5,55.93;420.27,55.93)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (416.42,55.93;418.74,55.93)/(418.46,55.93;416.42,55.93)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (418.74,49.47;416.42,49.47)/(416.42,49.47;418.46,49.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (419.99,45.85;420.5,45.85)/(420.5,45.85;420.27,45.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (704.74,-78.91;705.25,-78.91)/(705.25,-78.91;705.02,-78.91)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (704.74,-88.99;705.25,-88.99)/(705.25,-88.99;705.02,-88.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (705.25,-96.23;704.74,-96.23)/(705.02,-96.23;705.25,-96.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (513.28,-78.91;513.79,-78.91)/(513.79,-78.91;513.56,-78.91)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (509.66,-88.99;512.03,-88.99)/(511.75,-88.99;509.66,-88.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (738.48,-59.445;735.47,-59.445)/(735.75,-59.445;738.2,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (485.6,3.66;487.77,3.66)/(487.49,3.66;485.88,3.66)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (701.17,-78.91;703.49,-78.91)/(703.21,-78.91;701.17,-78.91)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (744.34,-88.42;744.85,-88.42)/(744.85,-88.42;744.62,-88.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (513.79,-85.37;513.28,-85.37)/(513.56,-85.37;513.79,-85.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (614.215,-103.61;616.54,-103.61)/(616.54,-103.61;614.495,-103.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (630.13,-104.66;630.13,-107.13)/(630.13,-106.85;630.13,-104.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (579.7,-80.51;580.49,-80.51)/(580.21,-80.51;579.98,-80.51)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (701.12,-88.99;703.49,-88.99)/(703.21,-88.99;701.12,-88.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (416.37,45.85;418.74,45.85)/(418.46,45.85;416.37,45.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (458.63,38.25;456.02,38.25)/(456.02,38.25;458.35,38.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (580.49,-84.49;579.7,-84.49)/(579.98,-84.49;580.21,-84.49)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (513.28,-88.99;513.79,-88.99)/(513.79,-88.99;513.56,-88.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (549.31,-88.42;551.92,-88.42)/(551.64,-88.42;549.31,-88.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (509.71,-78.91;512.03,-78.91)/(511.75,-78.91;509.71,-78.91)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (552.88,-78.47;553.39,-78.47)/(553.39,-78.47;553.16,-78.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (420.5,38.61;419.99,38.61)/(420.27,38.61;420.5,38.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (465.32,-0.29;463,-0.29)/(463.28,-0.29;465.04,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (512.03,-85.37;509.71,-85.37)/(509.71,-85.37;511.75,-85.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (703.49,-85.37;701.17,-85.37)/(701.17,-85.37;703.21,-85.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (743.38,-86.47;740.77,-86.47)/(740.77,-86.47;743.1,-86.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (581.31,-80.51;583.42,-80.51)/(583.42,-80.51;581.59,-80.51)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (513.79,-96.23;513.28,-96.23)/(513.56,-96.23;513.79,-96.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (424.35,-0.29;422.03,-0.29)/(422.31,-0.29;424.07,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (415.08,31.18;415.08,34.2)/(415.08,34.18;415.08,31.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (533.77,-59.445;531.13,-59.445)/(531.41,-59.445;533.49,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (566.02,-80.51;567.35,-80.51)/(567.07,-80.51;566.3,-80.51)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (444.73,-0.29;442.41,-0.29)/(442.69,-0.29;444.45,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (533.355,-32.75;529.885,-32.75)/(530.165,-32.75;533.075,-32.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (549.03,-100.67;551.64,-100.67)/(551.64,-100.67;549.31,-100.67)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (459.59,56.37;460.1,56.37)/(460.1,56.37;459.87,56.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (529.79,43.42;529.79,45.61)/(529.79,45.61;529.79,43.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (503.005,-85.67;503.005,-88.84)/(503.005,-88.56;503.005,-85.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (699.83,-103.66;699.83,-100.64)/(699.83,-100.66;699.83,-103.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (621.515,-108.26;619.19,-108.26)/(619.19,-108.26;621.235,-108.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (460.1,38.25;459.59,38.25)/(459.87,38.25;460.1,38.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (619.19,-103.61;621.515,-103.61)/(621.235,-103.61;619.19,-103.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (705.25,-85.37;704.74,-85.37)/(705.02,-85.37;705.25,-85.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (604.855,-103.61;607.045,-103.61)/(606.765,-103.61;604.855,-103.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (616.54,-108.26;614.215,-108.26)/(614.495,-108.26;616.54,-108.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (508.37,-103.66;508.37,-100.64)/(508.37,-100.66;508.37,-103.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (740.49,-100.67;743.1,-100.67)/(743.1,-100.67;740.77,-100.67)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (759.74,-59.445;756.99,-59.445)/(757.27,-59.445;759.46,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (424.79,3.66;427.39,3.66)/(427.11,3.66;425.07,3.66)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (725.23,-59.445;722.59,-59.445)/(722.87,-59.445;724.95,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (547.02,-59.445;544.01,-59.445)/(544.29,-59.445;546.74,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (486.67,-0.29;484.35,-0.29)/(484.63,-0.29;486.39,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (551.92,-96.59;549.31,-96.59)/(549.31,-96.59;551.64,-96.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (568.28,-59.445;565.53,-59.445)/(565.81,-59.445;568,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (420.5,49.47;419.99,49.47)/(420.27,49.47;420.5,49.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (459.59,46.42;460.1,46.42)/(460.1,46.42;459.87,46.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (460.1,48.37;459.59,48.37)/(459.87,48.37;460.1,48.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (456.02,46.42;458.63,46.42)/(458.35,46.42;456.02,46.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (743.38,-96.59;740.77,-96.59)/(740.77,-96.59;743.1,-96.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (740.77,-88.42;743.38,-88.42)/(743.1,-88.42;740.77,-88.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (744.85,-96.59;744.34,-96.59)/(744.62,-96.59;744.85,-96.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (553.39,-96.59;552.88,-96.59)/(553.16,-96.59;553.39,-96.59)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (552.88,-88.42;553.39,-88.42)/(553.39,-88.42;553.16,-88.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (455.74,34.17;458.35,34.17)/(458.35,34.17;456.02,34.17)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (551.92,-86.47;549.31,-86.47)/(549.31,-86.47;551.64,-86.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (744.85,-86.47;744.34,-86.47)/(744.62,-86.47;744.85,-86.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (553.39,-86.47;552.88,-86.47)/(553.16,-86.47;553.39,-86.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (567.35,-84.49;566.02,-84.49)/(566.3,-84.49;567.07,-84.49)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (744.34,-78.47;744.85,-78.47)/(744.85,-78.47;744.62,-78.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (458.63,48.37;456.02,48.37)/(456.02,48.37;458.35,48.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (583.42,-84.49;581.33,-84.49)/(581.61,-84.49;583.42,-84.49)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (583.42,-82.3;583.42,-84.49)/(583.42,-84.49;583.42,-82.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.53,34.07;44.14,34.07)/(44.14,34.07;41.81,34.07)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (340.235,3.52;341.645,3.52)/(341.365,3.52;340.515,3.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.42,48.27;41.81,48.27)/(41.81,48.27;44.14,48.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (186.76,45.5;189.13,45.5)/(188.85,45.5;186.76,45.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (235.27,-88.84;237.64,-88.84)/(237.36,-88.84;235.27,-88.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.89,48.27;45.38,48.27)/(45.66,48.27;45.89,48.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (278.49,-88.27;279,-88.27)/(279,-88.27;278.77,-88.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-0.05,2.6;-0.05,3.53)/(-0.05,3.53;-0.05,2.88)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (272.63,-59.445;269.62,-59.445)/(269.9,-59.445;272.35,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (279,-96.44;278.49,-96.44)/(278.77,-96.44;279,-96.44)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (59.03,-0.29;56.94,-0.29)/(57.22,-0.29;58.75,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (239.4,-96.08;238.89,-96.08)/(239.17,-96.08;239.4,-96.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (230.49,48.02;229.98,48.02)/(230.26,48.02;230.49,48.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (269.32,51.025;266.91,51.025)/(267.19,51.025;269.04,51.025)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (274.92,-88.27;277.53,-88.27)/(277.25,-88.27;274.92,-88.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (112.82,-35.35;112.82,-32.85)/(112.82,-33.13;112.82,-35.07)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.42,38.15;41.81,38.15)/(41.81,38.15;44.14,38.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (229.98,56.02;230.49,56.02)/(230.49,56.02;230.26,56.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (195.18,3.52;197.78,3.52)/(197.5,3.52;195.46,3.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3.78,-16.13;3.78,-19.28)/(3.78,-19.23;3.78,-16.41)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (38.9,-0.29;36.81,-0.29)/(37.09,-0.29;38.62,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (229.98,46.07;230.49,46.07)/(230.49,46.07;230.26,46.07)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (190.38,45.5;190.89,45.5)/(190.89,45.5;190.66,45.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (255.99,3.52;258.16,3.52)/(257.88,3.52;256.27,3.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.32,-59.42;23.68,-59.42)/(23.96,-59.42;26.04,-59.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (286.015,3.52;287.585,3.52)/(287.305,3.52;286.295,3.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (60.83,-59.42;58.08,-59.42)/(58.36,-59.42;60.55,-59.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-0.05,-31.75;-0.05,-28.65)/(-0.05,-28.65;-0.05,-31.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (238.89,-78.76;239.4,-78.76)/(239.4,-78.76;239.17,-78.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (238.89,-88.84;239.4,-88.84)/(239.4,-88.84;239.17,-88.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (230.49,37.9;229.98,37.9)/(230.26,37.9;230.49,37.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.94,-96.64;45.43,-96.64)/(45.71,-96.64;45.94,-96.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (239.4,-85.22;238.89,-85.22)/(239.17,-85.22;239.4,-85.22)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (237.64,-85.22;235.32,-85.22)/(235.32,-85.22;237.36,-85.22)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.94,-86.52;45.43,-86.52)/(45.71,-86.52;45.94,-86.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.47,-96.64;41.86,-96.64)/(41.86,-96.64;44.19,-96.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (235.32,-78.76;237.64,-78.76)/(237.36,-78.76;235.32,-78.76)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-0.05,-12.435;-0.05,-11.125)/(-0.05,-11.405;-0.05,-12.155)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (190.89,38.26;190.38,38.26)/(190.66,38.26;190.89,38.26)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.58,3.56;13.18,3.56)/(12.9,3.56;10.86,3.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (186.69,-0.55;184.55,-0.55)/(184.55,-0.55;186.41,-0.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (190.89,49.12;190.38,49.12)/(190.66,49.12;190.89,49.12)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (364.86,-113.74;364.86,-115.85)/(364.86,-115.85;364.86,-114.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (259.38,-59.445;256.74,-59.445)/(257.02,-59.445;259.1,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (293.89,-59.445;291.14,-59.445)/(291.42,-59.445;293.61,-59.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (0.87,31.08;0.87,34.1)/(0.87,34.08;0.87,31.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (226.41,46.07;229.02,46.07)/(228.74,46.07;226.41,46.07)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3.78,-28.65;3.78,-31.75)/(3.78,-31.47;3.78,-28.65)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.47,-86.52;41.86,-86.52)/(41.86,-86.52;44.19,-86.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (226.13,33.82;228.74,33.82)/(228.74,33.82;226.41,33.82)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.58,-100.72;44.19,-100.72)/(44.19,-100.72;41.86,-100.72)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (278.49,-78.32;279,-78.32)/(279,-78.32;278.77,-78.32)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (274.64,-100.52;277.25,-100.52)/(277.25,-100.52;274.92,-100.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.81,46.32;44.42,46.32)/(44.14,46.32;41.81,46.32)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (277.53,-96.44;274.92,-96.44)/(274.92,-96.44;277.25,-96.44)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (229.02,37.9;226.41,37.9)/(226.41,37.9;228.74,37.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (71.39,3.56;73.56,3.56)/(73.28,3.56;71.67,3.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.43,-78.52;45.94,-78.52)/(45.94,-78.52;45.71,-78.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (189.13,49.12;186.81,49.12)/(186.81,49.12;188.85,49.12)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-0.05,-19.28;-0.05,-16.13)/(-0.05,-16.41;-0.05,-19.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.38,46.32;45.89,46.32)/(45.89,46.32;45.66,46.32)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (190.38,55.58;190.89,55.58)/(190.89,55.58;190.66,55.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (277.53,-86.32;274.92,-86.32)/(274.92,-86.32;277.25,-86.32)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (229.02,48.02;226.41,48.02)/(226.41,48.02;228.74,48.02)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.56,-0.29;17.47,-0.29)/(17.75,-0.29;19.28,-0.29)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.89,38.15;45.38,38.15)/(45.66,38.15;45.89,38.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.43,-88.47;45.94,-88.47)/(45.94,-88.47;45.71,-88.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.57,-59.42;36.56,-59.42)/(36.84,-59.42;39.29,-59.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (186.81,55.58;189.13,55.58)/(188.85,55.58;186.81,55.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.38,56.27;45.89,56.27)/(45.89,56.27;45.66,56.27)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.86,-88.47;44.47,-88.47)/(44.19,-88.47;41.86,-88.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (279,-86.32;278.49,-86.32)/(278.77,-86.32;279,-86.32)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m1.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (364.86,-115.85;363.19,-115.85)/(363.47,-115.85;364.86,-115.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (371.59,122.35;371.59,125.24)/(371.59,124.96;371.59,122.39)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (92.78,3.945;92.78,6.76)/(92.78,6.48;92.78,4.225)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.03,34.725;41.03,37.915)/(41.03,37.635;41.03,35.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.8,23;44.8,20.185)/(44.8,20.465;44.8,22.72)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-38.1,-103.76;-38.1,-100.64)/(-38.1,-100.64;-38.1,-103.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-38.1,-100.64;-35.11,-100.64)/(-35.39,-100.64;-38.1,-100.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (210.34,-100.44;213.33,-100.44)/(213.12,-100.44;210.62,-100.44)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (804.345,-91.43;804.345,-88.82)/(804.345,-89.1;804.345,-91.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (628.88,-22.33;628.88,-25.43)/(628.88,-25.15;628.88,-22.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.26,44.2;22.34,44.2)/(22.06,44.2;19.26,44.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (25.03,44.2;25.03,42.03)/(25.03,42.31;25.03,44.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.82,42.03;44.82,44.2)/(44.82,44.2;44.82,42.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.26,43.4;19.26,44.2)/(19.26,44.2;19.26,43.68)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (58.44,42.03;58.44,44.2)/(58.44,44.2;58.44,42.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.45,45.68;11.45,43.4)/(11.45,43.68;11.45,45.68)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-2.93,5.79;-0.01,5.79)/(-0.29,5.79;-2.93,5.79)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (51.53,44.2;51.53,42.03)/(51.53,42.31;51.53,44.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.68,43.4;5.68,45.68)/(5.68,45.68;5.68,43.68)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (6.05,5.79;8.62,5.79)/(8.34,5.79;6.33,5.79)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m2.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.62,2.67;6.05,2.67)/(6.33,2.67;8.34,2.67)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (129.33,101.87;129.33,98.945)/(129.33,98.945;129.33,101.47)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (129.33,98.945;126.23,98.945)/(126.61,98.945;129.33,98.945)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.41,34.63;41.41,38.01)/(41.41,37.61;41.41,35.03)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.18,14.48;32.18,16.81)/(32.18,16.41;32.18,14.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.18,45.94;35.19,45.94)/(35.19,45.94;32.21,45.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (35.19,45.94;35.19,44.6)/(35.19,45;35.19,45.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.3ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.17,14.48;32.18,14.48)/(32.18,14.48;33.77,14.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (153.11,0.43;151.41,0.43)/(151.81,0.43;152.71,0.43)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (95.15,0.31;93.45,0.31)/(93.85,0.31;94.75,0.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (114.47,0.24;112.77,0.24)/(113.17,0.24;114.07,0.24)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (131.95,4.04;134.87,4.04)/(134.87,4.04;132.35,4.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (133.79,0.23;132.09,0.23)/(132.49,0.23;133.39,0.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.87,4.04;134.87,1.2)/(134.87,1.6;134.87,4.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>tt_um_NE567Mixer28</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (41.455,34.655;41.455,37.985)/(41.455,37.585;41.455,35.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (721.58,8.095;720.26,8.095)/(720.66,8.095;721.18,8.095)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (720.26,37.705;721.58,37.705)/(721.18,37.705;720.66,37.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (753.32,37.705;754.64,37.705)/(754.24,37.705;753.72,37.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (754.64,8.095;753.32,8.095)/(753.72,8.095;754.24,8.095)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (687.2,69.305;688.52,69.305)/(688.12,69.305;687.6,69.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (687.2,37.705;688.52,37.705)/(688.12,37.705;687.6,37.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (688.52,8.095;687.2,8.095)/(687.6,8.095;688.12,8.095)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (720.26,69.305;721.58,69.305)/(721.18,69.305;720.66,69.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (783.03,7.63;783.03,10.76)/(783.03,10.505;783.03,7.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (721.58,39.695;720.26,39.695)/(720.66,39.695;721.18,39.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (753.32,69.305;754.64,69.305)/(754.24,69.305;753.72,69.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (688.52,39.695;687.2,39.695)/(687.6,39.695;688.12,39.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>ecgF</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (754.64,39.695;753.32,39.695)/(753.72,39.695;754.24,39.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.525,2.15;34.525,0.83)/(34.525,1.23;34.525,1.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.515,0.83;12.515,2.15)/(12.515,1.75;12.515,1.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (36.515,0.83;36.515,2.15)/(36.515,1.75;36.515,1.23)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.5ab'</category>
+   <cell>OFCB</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (58.525,2.15;58.525,0.83)/(58.525,1.23;58.525,1.75)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
